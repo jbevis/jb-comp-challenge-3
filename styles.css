@@ -26,9 +26,6 @@ hr {
   max-width: 160px;
 }
 
-.aside-block {
-  /*padding-left: 10px;*/
-}
 
 #block-profile {
   display: flex;
@@ -86,7 +83,7 @@ div {
   align-items: center;
   border-left: 1px solid #F4F4F6;
   border-bottom: 1px solid #F4F4F6;
-  border-right: 1px solid #F4F4F6d;
+  border-right: 1px solid #F4F4F6;
   cursor: pointer;
 }
 
@@ -346,7 +343,6 @@ header h1 {
   background-color: #F5F5F5;
 }
 
-
 .job-description header button img {
   width: 10px;
   margin: 0px 7px;
@@ -360,10 +356,6 @@ header h1 {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-/*.job-description-row p {
-  margin-left: 50px;
-}*/
 
 .profile-pic {
   width: 75px;
