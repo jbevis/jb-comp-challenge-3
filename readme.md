@@ -1,4 +1,4 @@
-##Static Comp Challenge 2
+##Static Comp Challenge 3
 
 ###Synopsis
 In this challenge I was tasked with recreating a static layout comp using HTML and CSS to build and style a webpage.
