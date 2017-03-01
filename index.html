@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+  <title>Static Comp 3</title>
+  <link ref="stylesheet" type="text/css" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;" /></head>
+<body>
+  <aside class="sidebar-nav">
+    <section class="aside-block" id="block-profile">
+      <img class="profile-pic" src="images/headshot.jpeg"/>
+      <p>Jack Bevis</p>
+    </section>
+    <hr>
+    <section class="aside-block" id="block-main">
+      <h6>Main</h6>
+      <ul>
+        <li><img src="images/icons/icon_home.svg"/>HOME</li>
+        <li><img src="images/icons/briefcase.svg"/>JOBS</li>
+        <li><img src="images/icons/resume.svg"/>RESUMES</li>
+        <li><img src="images/icons/clipboard.svg"/>TASKS</li>
+        <li><img src="images/icons/calendar.svg"/>CALENDAR</li>
+      </ul>
+    </section>
+    <hr>
+    <section class="aside-block" id="block-admin">
+      <h6>Admin</h6>
+      <ul>
+        <li><img src="images/icons/users.svg"/>USERS</li>
+        <li><img src="images/icons/locationpin.svg"/>LOCATION</li>
+        <li><img src="images/icons/workflow.svg"/>WORKFLOW</li>
+        <li><img src="images/icons/jobboard.svg"/>JOB BOARDS</li>
+        <li><img src="images/icons/share.svg"/>SOCIAL</li>
+      </ul>
+    </section>
+    <hr>
+    <section class="aside-block" id="block-categories">
+      <h6>Categories</h6>
+      <ul>
+        <li><img src="images/icons/yellowsquare.svg"/>Administrative</li>
+        <li><img src="images/icons/redsquare.svg"/>Design</li>
+        <li><img src="images/icons/bluesquare.svg"/>Executive</li>
+        <li><img src="images/icons/greensquare.svg"/>Human Resources</li>
+      </ul>
+    </section>
+    <hr>
+  </aside>
+  <section class="main-section">
+    <nav class="nav-tiles">
+      <div id="hamburger"><img id="left-arrow" src="images/icons/leftarrow.svg"/><img src="images/icons/hamburger.svg"/></div>
+      <div id="search"><img src="images/icons/search.svg"/><input placeholder="Search for a job, task or resume"</input></div>
+      <div id="profile-page"><img src="images/icons/adduser.svg"/></div>
+      <div id="calendar"><img src="images/icons/calendar.svg"/></div>
+      <div id="grid"><img src="images/icons/grid.svg"/></div>
+    </nav>
+    <section class="job-title">
+      <header>
+        <h1>Customer Service Representative</h1>
+        <section>
+          <img id="pin" src="images/icons/locationpin.svg"/>
+          <p class="location">Denver, CO &#9679; <span id="preview">Preview this post</span></p>
+        </section>
+      </header>
+      <section class="job-buttons">
+        <button id="open-btn"><span>&#9679;</span> OPEN</button>
+        <button><img src="images/icons/bookmark.svg"/></button>
+        <button><img src="images/icons/pencil.svg"/></button>
+        <button><img src="images/icons/garbage.svg"/></button>
+      </section>
+    </section>
+    <section class="current-page">
+        <h5 id="summary">SUMMARY<img id="current-page-mobile" src="images/icons/downarrow.svg"/></h5>
+        <h5 class="mobile-hidden">APPLICANTS</h5>
+        <h5 class="mobile-hidden">JOB BOARD</h5>
+        <h5 class="mobile-hidden">INTERVIEWS</h5>
+        <h5 class="mobile-hidden">ACTIVITY</h5>
+        <h5 class="mobile-hidden">BROADCAST</h5>
+        <h5 class="mobile-hidden">NOTIFICATIONS</h5>
+    </section>
+    <section class="statistics">
+      <section class="stat-one">
+        <section class="circles">
+            <article class="circle-num" id="one">
+              <h1>3,154</h1>
+              <p>Applicants</p>
+            </article>
+            <article class="circle-num" id="two">
+              <h1>1,546</h1>
+              <p>Interviews</p>
+            </article>
+            <article class="circle-num" id="three">
+              <h1>912</h1>
+              <p>Forwards</p>
+            </article>
+          </section>
+          <button>Totals: Out of 5,231 views</button>
+      </section>
+      <section class="graph">
+        <img id="graph-image" src="images/image_graph.png"/>
+        <button>Applicants/day</button>
+      </section>
+    </section>
+    <hr>
+    <section class="lower-half-main">
+      <section class="job-description">
+        <header>
+          <h5>JOB DESCRIPTION</h5>
+          <button class="edit-btn"><img src="images/icons/pencil.svg"/>EDIT</button>
+        </header>
+        <article class="job-description-row">
+          <h5>POSITION TITLE</h5>
+          <p>Customer Service Representative</p>
+        </article>
+        <article class="job-description-row">
+          <h5>LOCATION</h5>
+          <p>Denver, CO</p>
+        </article>
+        <article class="job-description-row">
+          <h5>EMPLOYMENT TYPE</h5>
+          <p>Full-time</p>
+        </article>
+        <article class="job-description-row">
+          <h5>EXPERIENCE</h5>
+          <p>Mid-level</p>
+        </article>
+        <article class="job-description-row">
+          <h5>STATUS</h5>
+          <p>Open</p>
+        </article>
+        <article class="job-description-row">
+          <h5 id="description-head">DESCRIPTION</h5>
+          <p id="description-para">Yeah, like I'm going to spill coffee all over this $3,000 suit? Come on! Could it be love? I know what an erection feels like, Michael. No, it's the opposite. It's like my heart is getting hard. It's as Ann as the nose on plain's face. I call it Tricks –- wait for it – Around The Office. I'm not a prostitute. Then I shall let you live! The CIA should've just Googled for his hideout, evidently. I should be in this Poof.</p>
+        </article>
+        <article class="job-description-row">
+          <h5>HIRING LEAD</h5>
+          <img class="profile-pic" id="dog-pic" src="images/moxie.jpg"/><p>Moxie the Dog</p>
+        </article>
+        <article class="job-description-row">
+          <h5>APPROVED SALARY</h5>
+          <p>$58,000</p>
+        </article>
+      </section>
+      <section class="lower-half-right">
+        <section class="social-area">
+          <button class="social-buttons" id="fb"><img src ="images/social-icons/fb.svg"/>Post to Facebook</button>
+          <button class="social-buttons" id="twitter"><img src ="images/social-icons/twitter.svg"/>Post to Twitter</button>
+          <button class="social-buttons" id="linkedin"><img src ="images/social-icons/linkedin.svg"/>Post to Linkedin</button>
+        </section>
+        <section class="bottom-area">
+          <article class="link-cards">
+            <header>
+              <img src="images/icons/earth.svg"/>
+              <h4>Link to this Job</h4>
+            </header>
+            <p>Waiting for the Emmys. BTW did you know won 6 Emmys and was still canceled early by Fox? COME ON. Gosh Mom… after all these years, God's not going to take a call from you.</p>
+            <section class="url-field">
+              <p contenteditable>http://www.bluthipsum.com...</p>
+              <button>Copy</button>
+            </section>
+            <hr>
+          </article>
+          <article class="link-cards">
+            <header>
+              <img src="images/icons/camera.svg"/>
+              <h4>Use the Button Widget</h4>
+            </header>
+            <p>Waiting for the Emmys. BTW did you know won 6 Emmys and was still canceled early by Fox? COME ON. Gosh Mom… after all these years, God's not going to take a call from you.</p>
+            <section class="url-field">
+              <p contenteditable>http://www.bluthipsum.com...</p>
+              <button>Copy</button>
+            </section>
+            <hr>
+          </article>
+          <article class="link-cards">
+            <header>
+              <img src="images/icons/paperairplane.svg"/>
+              <h4>Upload Resumes by Email</h4>
+            </header>
+            <p>Waiting for the Emmys. BTW did you know won 6 Emmys and was still canceled early by Fox? COME ON. Gosh Mom… after all these years, God's not going to take a call from you.</p>
+            <section class="url-field">
+              <p contenteditable>http://www.bluthipsum.com...</p>
+            </section>
+          </article>
+        </section>
+      </section>
+    </section>
+  </section>
+</body>
+</html>
